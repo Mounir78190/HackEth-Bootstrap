@@ -1,0 +1,12 @@
+# Exemple de configuration ZSH HackEth
+
+if [ -f "$HOME/.hacketh_aliases" ]; then
+  source "$HOME/.hacketh_aliases"
+fi
+
+export EDITOR=vim
+export HISTSIZE=10000
+export SAVEHIST=10000
+
+setopt HIST_IGNORE_DUPS
+setopt SHARE_HISTORY

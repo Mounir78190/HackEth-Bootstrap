@@ -1,0 +1,23 @@
+# Secrets
+.env
+*.key
+*.pem
+id_rsa*
+id_ed25519*
+*wireguard*.conf
+*wg*.conf
+
+# Logs et temporaires
+*.log
+tmp/
+temp/
+
+# Archives
+*.zip
+*.tar
+*.tar.gz
+*.7z
+
+# OS
+.DS_Store
+Thumbs.db
