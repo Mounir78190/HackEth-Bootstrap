@@ -61,3 +61,15 @@ run_module() {
 apt_install() {
   run apt-get install -y "$@"
 }
+
+apt_has_candidate() {
+  local package="$1"
+  local candidate
+
+  if ! command -v apt-cache >/dev/null 2>&1; then
+    return 1
+  fi
+
+  candidate="$(apt-cache policy "$package" 2>/dev/null | awk '/Candidate:/ {print $2; exit}')"
+  [[ -n "$candidate" && "$candidate" != "(none)" ]]
+}

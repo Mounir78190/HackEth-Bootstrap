@@ -2,6 +2,14 @@
 
 Toutes les modifications notables de ce projet seront documentées dans ce fichier.
 
+## [0.1.2] - 2026-07-18
+
+### Corrigé
+
+- Installation Docker séparée de Docker Compose.
+- Fallback vers `docker-compose` si `docker-compose-plugin` n'est pas disponible sur Kali.
+- Docker Compose rendu non bloquant si aucun paquet compatible n'est disponible.
+
 ## [0.1.1] - 2026-07-18
 
 ### Corrigé

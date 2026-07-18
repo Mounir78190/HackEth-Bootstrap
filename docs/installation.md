@@ -94,3 +94,13 @@ NetExec peut être installé via APT si le paquet est disponible dans Kali.
 Si le paquet APT n'est pas disponible, le script tente une installation via `pipx`. Certaines dépendances Python peuvent nécessiter Rust, notamment `aardwolf`. Pour cette raison, `rustc` et `cargo` font partie des paquets de base installés par le bootstrap.
 
 Un échec d'installation de NetExec via `pipx` ne bloque plus l'ensemble du bootstrap.
+
+## Note Docker Compose
+
+Selon l'état des dépôts Kali, `docker-compose-plugin` peut être indisponible.
+
+Le script installe d'abord `docker.io`, puis tente :
+
+- `docker-compose-plugin` si disponible ;
+- `docker-compose` en fallback ;
+- sinon le bootstrap continue avec Docker Engine seul.

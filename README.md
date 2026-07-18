@@ -4,7 +4,7 @@
 [![Bash](https://img.shields.io/badge/Bash-Automation-green)](#)
 [![HackEth](https://img.shields.io/badge/HackEth-Bootstrap-blue)](https://github.com/Mounir78190/HackEth)
 [![Statut](https://img.shields.io/badge/statut-en%20construction-yellow)](#)
-[![Version](https://img.shields.io/badge/version-0.1.1-blue)](VERSION)
+[![Version](https://img.shields.io/badge/version-0.1.2-blue)](VERSION)
 [![Licence](https://img.shields.io/badge/licence-MIT-green)](LICENSE)
 
 HackEth-Bootstrap automatise la préparation d'un poste Kali Linux destiné au projet HackEth.
@@ -112,7 +112,7 @@ HackEth-Bootstrap/
 
 ## Version
 
-Version actuelle : `0.1.1`
+Version actuelle : `0.1.2`
 
 - [Changelog](CHANGELOG.md)
 - [Licence](LICENSE)
