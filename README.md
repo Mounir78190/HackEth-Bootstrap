@@ -3,7 +3,7 @@
 [![Kali Linux](https://img.shields.io/badge/Kali-Linux-blue)](https://www.kali.org/)
 [![Bash](https://img.shields.io/badge/Bash-Automation-green)](#)
 [![HackEth](https://img.shields.io/badge/HackEth-Bootstrap-blue)](https://github.com/Mounir78190/HackEth)
-[![Statut](https://img.shields.io/badge/statut-en%20construction-yellow)](#)
+[![Statut](https://img.shields.io/badge/statut-valid%C3%A9%20Kali%20physique-green)](#)
 [![Version](https://img.shields.io/badge/version-0.1.3-blue)](VERSION)
 [![Licence](https://img.shields.io/badge/licence-MIT-green)](LICENSE)
 

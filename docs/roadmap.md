@@ -2,7 +2,7 @@
 
 ## Phase 1 - Base Bootstrap
 
-Statut : initialisé
+Statut : validé
 
 - Créer la structure du dépôt.
 - Ajouter `bootstrap.sh`.
@@ -16,7 +16,7 @@ Statut : validé sur Kali physique
 
 - Tester sur Kali physique : dry-run et installation réelle validés.
 - Tester sur Kali VM.
-- Ajuster les paquets selon disponibilité.
+- Ajuster les paquets selon disponibilité : NetExec et Docker Compose traités.
 - Ajouter une checklist post-installation.
 
 ## Phase 3 - Qualité
