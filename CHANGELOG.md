@@ -2,6 +2,21 @@
 
 Toutes les modifications notables de ce projet seront documentées dans ce fichier.
 
+## [0.2.0] - 2026-07-18
+
+### Ajouté
+
+- Plan de test VM avec VMware Workstation.
+- Configuration VM recommandée pour Kali.
+- Procédure de validation dry-run et installation réelle en VM.
+- Critères de validation VM.
+
+### Validé
+
+- Dry-run validé sur VM Kali VMware Workstation.
+- Installation réelle validée sur VM Kali VMware Workstation.
+- Vérifications post-installation validées sur VM Kali VMware Workstation.
+
 ## [0.1.3] - 2026-07-18
 
 ### Corrigé

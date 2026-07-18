@@ -3,8 +3,8 @@
 [![Kali Linux](https://img.shields.io/badge/Kali-Linux-blue)](https://www.kali.org/)
 [![Bash](https://img.shields.io/badge/Bash-Automation-green)](#)
 [![HackEth](https://img.shields.io/badge/HackEth-Bootstrap-blue)](https://github.com/Mounir78190/HackEth)
-[![Statut](https://img.shields.io/badge/statut-valid%C3%A9%20Kali%20physique-green)](#)
-[![Version](https://img.shields.io/badge/version-0.1.3-blue)](VERSION)
+[![Statut](https://img.shields.io/badge/statut-valid%C3%A9%20Kali%20physique%20%2B%20VM-green)](#)
+[![Version](https://img.shields.io/badge/version-0.2.0-blue)](VERSION)
 [![Licence](https://img.shields.io/badge/licence-MIT-green)](LICENSE)
 
 HackEth-Bootstrap automatise la préparation d'un poste Kali Linux destiné au projet HackEth.
@@ -97,6 +97,7 @@ HackEth-Bootstrap/
 `-- docs/
     |-- installation.md
     |-- tools.md
+    |-- vm-test.md
     |-- security.md
     |-- roadmap.md
     `-- publishing.md
@@ -106,13 +107,14 @@ HackEth-Bootstrap/
 
 - [Installation](docs/installation.md)
 - [Outils](docs/tools.md)
+- [Test VM](docs/vm-test.md)
 - [Sécurité](docs/security.md)
 - [Roadmap](docs/roadmap.md)
 - [Publication GitHub](docs/publishing.md)
 
 ## Version
 
-Version actuelle : `0.1.3`
+Version actuelle : `0.2.0`
 
 - [Changelog](CHANGELOG.md)
 - [Licence](LICENSE)

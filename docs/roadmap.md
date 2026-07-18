@@ -12,10 +12,10 @@ Statut : validé
 
 ## Phase 2 - Validation Kali
 
-Statut : validé sur Kali physique
+Statut : validé sur Kali physique et VM Kali
 
 - Tester sur Kali physique : dry-run et installation réelle validés.
-- Tester sur Kali VM.
+- Tester sur Kali VM : dry-run, installation réelle et vérifications post-installation validés.
 - Ajuster les paquets selon disponibilité : NetExec et Docker Compose traités.
 - Ajouter une checklist post-installation.
 

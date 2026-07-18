@@ -80,6 +80,8 @@ Le mode `--dry-run` a été validé sur le poste Kali physique HackEth.
 
 L'installation réelle avec `sudo ./bootstrap.sh` a également été validée sur le poste Kali physique HackEth.
 
+Le mode `--dry-run` et l'installation réelle ont aussi été validés sur une VM Kali VMware Workstation.
+
 Résultat observé :
 
 - modules chargés correctement ;
@@ -100,6 +102,23 @@ Résultat observé pendant l'installation réelle :
 - Visual Studio Code installé depuis le dépôt Microsoft ;
 - wordlists préparées ;
 - configuration shell copiée pour l'utilisateur `mounir`.
+
+Résultat observé pendant l'installation réelle en VM Kali :
+
+- paquets de base installés ou mis à jour correctement ;
+- outils cybersécurité principaux installés ou mis à jour correctement ;
+- NetExec validé via APT ;
+- Docker Engine installé et activé ;
+- Docker Compose non disponible dans les dépôts Kali au moment du test, sans blocage ;
+- Visual Studio Code installé depuis le dépôt Microsoft ;
+- wordlists et SecLists disponibles ;
+- configuration shell copiée pour l'utilisateur `mounir`.
+
+Vérification post-installation VM :
+
+- Nmap, Hydra, Gobuster, ffuf, NetExec, Docker, Python, Git et ZSH répondent correctement ;
+- `docker.service` est actif et en cours d'exécution ;
+- l'appartenance effective au groupe `docker` peut nécessiter une reconnexion de session.
 
 ## Note NetExec
 
