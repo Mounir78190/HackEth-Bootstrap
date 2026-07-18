@@ -2,6 +2,15 @@
 
 Toutes les modifications notables de ce projet seront documentées dans ce fichier.
 
+## [0.1.1] - 2026-07-18
+
+### Corrigé
+
+- Ajout de `rustc` et `cargo` pour les dépendances Python nécessitant Rust.
+- Installation NetExec via APT si le paquet est disponible.
+- Fallback NetExec via `pipx` rendu non bloquant en cas d'échec.
+- Documentation de reprise après échec NetExec.
+
 ## [0.1.0] - 2026-07-17
 
 ### Ajouté

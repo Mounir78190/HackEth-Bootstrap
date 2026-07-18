@@ -19,6 +19,8 @@ apt_install \
   python3-pip \
   python3-venv \
   pipx \
+  rustc \
+  cargo \
   zsh \
   vim \
   tmux \

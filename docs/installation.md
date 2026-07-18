@@ -32,6 +32,15 @@ chmod +x bootstrap.sh scripts/*.sh
 sudo ./bootstrap.sh
 ```
 
+Si une exécution précédente s'est arrêtée pendant l'installation de NetExec, mettre à jour le dépôt puis relancer :
+
+```bash
+cd ~/HackEth-Bootstrap
+git pull
+chmod +x bootstrap.sh scripts/*.sh
+sudo ./bootstrap.sh
+```
+
 ## Après installation
 
 - Redémarrer la session si Docker a été installé.
@@ -64,3 +73,11 @@ Résultat observé :
 - installation VS Code simulée ;
 - préparation des wordlists simulée ;
 - configuration shell simulée pour l'utilisateur `mounir`.
+
+## Note NetExec
+
+NetExec peut être installé via APT si le paquet est disponible dans Kali.
+
+Si le paquet APT n'est pas disponible, le script tente une installation via `pipx`. Certaines dépendances Python peuvent nécessiter Rust, notamment `aardwolf`. Pour cette raison, `rustc` et `cargo` font partie des paquets de base installés par le bootstrap.
+
+Un échec d'installation de NetExec via `pipx` ne bloque plus l'ensemble du bootstrap.
