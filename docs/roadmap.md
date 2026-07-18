@@ -12,9 +12,9 @@ Statut : initialisé
 
 ## Phase 2 - Validation Kali
 
-Statut : en cours
+Statut : validé sur Kali physique
 
-- Tester sur Kali physique : dry-run validé.
+- Tester sur Kali physique : dry-run et installation réelle validés.
 - Tester sur Kali VM.
 - Ajuster les paquets selon disponibilité.
 - Ajouter une checklist post-installation.

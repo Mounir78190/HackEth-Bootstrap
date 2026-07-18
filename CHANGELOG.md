@@ -2,6 +2,19 @@
 
 Toutes les modifications notables de ce projet seront documentées dans ce fichier.
 
+## [0.1.3] - 2026-07-18
+
+### Corrigé
+
+- Préparation de `rockyou.txt` rendue non interactive si le fichier existe déjà.
+
+### Validé
+
+- Installation réelle testée sur le poste Kali physique HackEth.
+- NetExec validé via APT.
+- Docker Engine validé avec fallback Docker Compose non bloquant.
+- Visual Studio Code installé correctement.
+
 ## [0.1.2] - 2026-07-18
 
 ### Corrigé

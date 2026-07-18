@@ -78,6 +78,8 @@ zsh --version
 
 Le mode `--dry-run` a été validé sur le poste Kali physique HackEth.
 
+L'installation réelle avec `sudo ./bootstrap.sh` a également été validée sur le poste Kali physique HackEth.
+
 Résultat observé :
 
 - modules chargés correctement ;
@@ -86,6 +88,18 @@ Résultat observé :
 - installation VS Code simulée ;
 - préparation des wordlists simulée ;
 - configuration shell simulée pour l'utilisateur `mounir`.
+
+Résultat observé pendant l'installation réelle :
+
+- paquets de base déjà présents ou installés correctement ;
+- `rustc` et `cargo` installés pour les dépendances nécessitant Rust ;
+- outils cybersécurité principaux présents ;
+- NetExec validé via APT ;
+- Docker Engine validé ;
+- Docker Compose non disponible dans les dépôts Kali au moment du test, sans blocage ;
+- Visual Studio Code installé depuis le dépôt Microsoft ;
+- wordlists préparées ;
+- configuration shell copiée pour l'utilisateur `mounir`.
 
 ## Note NetExec
 
@@ -104,3 +118,7 @@ Le script installe d'abord `docker.io`, puis tente :
 - `docker-compose-plugin` si disponible ;
 - `docker-compose` en fallback ;
 - sinon le bootstrap continue avec Docker Engine seul.
+
+## Note rockyou.txt
+
+Si `/usr/share/wordlists/rockyou.txt` existe déjà, le script ne tente plus de le regénérer depuis `rockyou.txt.gz`. Cela évite une question interactive de `gzip` lors des exécutions suivantes.

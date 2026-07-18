@@ -3,7 +3,9 @@ set -euo pipefail
 
 log "Préparation des wordlists"
 
-if [[ -f /usr/share/wordlists/rockyou.txt.gz ]]; then
+if [[ -f /usr/share/wordlists/rockyou.txt ]]; then
+  log "rockyou.txt est déjà disponible."
+elif [[ -f /usr/share/wordlists/rockyou.txt.gz ]]; then
   run gzip -dk /usr/share/wordlists/rockyou.txt.gz
 fi
 
