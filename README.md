@@ -55,7 +55,7 @@ HomeLab
 Depuis une Kali Linux fraîche :
 
 ```bash
-git clone https://github.com/Mounir78190/HackEth-Bootstrap.git
+git clone https://github.com/Mounir78190/HackEth-Bootstrap
 cd HackEth-Bootstrap
 chmod +x bootstrap.sh scripts/*.sh
 ./bootstrap.sh --dry-run
