@@ -62,6 +62,15 @@ chmod +x bootstrap.sh scripts/*.sh
 sudo ./bootstrap.sh
 ```
 
+Si le dossier existe déjà :
+
+```bash
+cd HackEth-Bootstrap
+git pull
+chmod +x bootstrap.sh scripts/*.sh
+./bootstrap.sh --dry-run
+```
+
 ## Structure
 
 ```text

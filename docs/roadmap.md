@@ -2,7 +2,7 @@
 
 ## Phase 1 - Base Bootstrap
 
-Statut : en cours
+Statut : initialisé
 
 - Créer la structure du dépôt.
 - Ajouter `bootstrap.sh`.
@@ -12,9 +12,9 @@ Statut : en cours
 
 ## Phase 2 - Validation Kali
 
-Statut : prévu
+Statut : en cours
 
-- Tester sur Kali physique.
+- Tester sur Kali physique : dry-run validé.
 - Tester sur Kali VM.
 - Ajuster les paquets selon disponibilité.
 - Ajouter une checklist post-installation.
