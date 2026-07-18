@@ -41,6 +41,19 @@ chmod +x bootstrap.sh scripts/*.sh
 sudo ./bootstrap.sh
 ```
 
+Si `git pull` refuse la mise à jour à cause de modifications locales :
+
+```bash
+cd ~/HackEth-Bootstrap
+git status --short
+git stash push -m "sauvegarde locale avant mise à jour bootstrap" -- scripts/install-base.sh scripts/install-security-tools.sh
+git pull
+chmod +x bootstrap.sh scripts/*.sh
+sudo ./bootstrap.sh
+```
+
+Cette méthode conserve les modifications locales dans un stash Git au lieu de les supprimer.
+
 ## Après installation
 
 - Redémarrer la session si Docker a été installé.

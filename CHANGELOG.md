@@ -10,6 +10,7 @@ Toutes les modifications notables de ce projet seront documentées dans ce fichi
 - Installation NetExec via APT si le paquet est disponible.
 - Fallback NetExec via `pipx` rendu non bloquant en cas d'échec.
 - Documentation de reprise après échec NetExec.
+- Documentation de reprise lorsque `git pull` est bloqué par des modifications locales.
 
 ## [0.1.0] - 2026-07-17
 
